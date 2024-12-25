@@ -41,7 +41,8 @@ $info_email = 'info@' . $_SERVER['HTTP_HOST'];
     <div class="footer-top-mob mobile-only custom-spacing">
         <div class="footer-column footer-phone-email-location">
             <h2><?= $site_title ?></h2>
-            <a href="https://maps.app.goo.gl/Q4L2FtYPDyW8epce9" target="_blank"><b>Staðsetning:</b><br>Lambhagavegur 2-4, 113 Rvk</a>
+            <!-- <a href="https://maps.app.goo.gl/Q4L2FtYPDyW8epce9" target="_blank"><b>Staðsetning:</b><br>Lambhagavegur 2-4, 113 Rvk</a> -->
+            <a href="https://maps.app.goo.gl/Q4L2FtYPDyW8epce9" target="_blank"><b>Staðsetning:</b><br>Engjavegur 7, 104 Reykjavík</a>
 
             <a href="tel:+3546986620">Vignir: 698-6620</a>
             <a href="tel:+3546961770">Magnús: 696-1770</a>
