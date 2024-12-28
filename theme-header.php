@@ -1,9 +1,16 @@
 <?php
 $site_title = esc_html(get_bloginfo('name'));
 
-$logo_path = get_stylesheet_directory_uri() . '/img/trottur_logo_display.webp';
+// $logo_path = get_stylesheet_directory_uri() . '/img/trottur_logo_display.webp';
+$logo_path = get_site_icon_url();
 $cart_path = get_stylesheet_directory_uri() . '/img/cart-icon.png';
+
+
+// $site_icon_url = get_site_icon_url();
 ?>
+<!-- <br><br><br><br><br><br>
+<h1>test</h1>
+<br><br><br><br><br><br> -->
 
 <!-- ============== -->
 <!-- DESKTOP HEADER -->
