@@ -1,6 +1,8 @@
 <?php
 $site_title = esc_html(get_bloginfo('name'));
-$logo_path = get_stylesheet_directory_uri() . '/img/trottur_logo_display.webp';
+$logo_path = get_site_icon_url();
+$skilmalar_url = get_permalink( wc_terms_and_conditions_page_id() );
+// $logo_path = get_stylesheet_directory_uri() . '/img/trottur_logo_display.webp';
 
 // info_email = info@$site_url
 $info_email = 'info@' . $_SERVER['HTTP_HOST'];
@@ -70,7 +72,7 @@ $info_email = 'info@' . $_SERVER['HTTP_HOST'];
     </div>
 
     <div class="footer-bottom">
-        <p>Allur réttur áskilinn - <?php echo date("Y"); ?>© - <a class="terms-gullborg" href="http://trottur.local/almennir-skilmalar/?preferredFlag=http%3A%2F%2Ftrottur.local%2Fwp-content%2Fuploads%2F2022%2F09%2Ficelandic_flag.webp">Skilmálar</a></p>
+        <p>Allur réttur áskilinn - <?php echo date("Y"); ?>© - <a class="terms-gullborg" href="<?= $skilmalar_url ?>">Skilmálar</a></p>
     </div>
 </div>
 

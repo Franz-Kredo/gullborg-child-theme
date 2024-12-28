@@ -22,6 +22,8 @@
         --primary: #bf0812;
         --accent: #e57373;
         --button-text: #ffffff;
+
+        --header-logo-size: 40px;
     }
 	
 	/* Global Buttons */
@@ -175,14 +177,10 @@
         cursor: pointer;
     }
 
-    .site-icon{
-        width: 35px;
+    /* Size of icon in header */
+    .site-icon, .site-icon img{
+        width: var(--header-logo-size);
     }
-	
-	.site-icon img{
-        width: 35px;
-    }
-
     
     .right-items span {
         margin-left: 20px;
