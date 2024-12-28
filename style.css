@@ -473,6 +473,9 @@
     padding: 5px 5px 5px 0;
     } 
 
+    .kredo-footer .footer-column img{
+        margin-top: 26px;
+    }
 
 
     .kredo-footer a:hover, .footer-phone-email-location a p:hover {
