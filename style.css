@@ -497,9 +497,22 @@
         margin: auto;
         justify-content: center;
         align-items: center;
-        width: 400px;
-
+        width: 90vw;
     }
+
+    /* Make long titles fit on mobile */
+    @media only screen and (max-width: 550px){
+        .footer-top-mob{
+          width: 95vw;
+        }
+        
+        .kredo-footer .footer-column h2{
+          font-size: 18px;
+        }
+        .kredo-footer .footer-column a, .kredo-footer .footer-column b{
+          font-size: 16px;
+        }
+      }
 
 
     .footer-column {
