@@ -163,7 +163,7 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: bold;
         color: white;
         margin-left: 14px;
@@ -503,14 +503,14 @@
     /* Make long titles fit on mobile */
     @media only screen and (max-width: 550px){
         .footer-top-mob{
-          width: 95vw;
+          width: 95vw !important;
         }
         
         .kredo-footer .footer-column h2{
-          font-size: 18px;
+          font-size: 18px !important;
         }
         .kredo-footer .footer-column a, .kredo-footer .footer-column b{
-          font-size: 16px;
+          font-size: 16px !important;
         }
       }
 
